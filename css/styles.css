@@ -1,0 +1,157 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #ffffff;
+  --accent: #2196f3;
+  --title: #212121;
+  --contacts: rgba(255, 255, 255, 0.6);
+  --primary-background-color: #ffffff;
+}
+
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #FFFFFF */
+/* акцент #2196F3 */
+/* заголовки #212121*/
+/* футер почта и телефон rgba(255, 255, 255, 0.6) */
+/* цвет logo #000000 */
+
+/* цвет фона #FFFFFF */
+/* вторичный цвет фона #f5f4fa */
+/* цвет фона hero, activity rgba(47, 48, 58, 0.8); */
+/* цвет фона footer #2F303A */
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+
+/* logo */
+.accent {
+  color: #2196f3;
+}
+.logo {
+  color: #000000;
+}
+
+/* studio */
+
+/* nav */
+.nav .nav-link {
+  color: var(--title);
+}
+.nav .nav-link:hover,
+.nav .nav-link:focus {
+  color: var(--accent);
+}
+.nav .nav-link.current {
+  color: var(--accent);
+}
+
+/* contacts */
+.contacts .contacts-link {
+  color: var(--primary-text-color);
+}
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+  color: var(--accent);
+}
+
+/* hero */
+.hero .hero-title {
+  color: var(--secondary-text-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.hero .button {
+  color: var(--secondary-text-color);
+  background-color: var(--accent);
+}
+
+/* features */
+.features .features-title {
+  color: var(--secondary-text-color);
+}
+.features .features-list {
+  color: var(--title);
+}
+
+/* activity */
+.activity-title {
+  color: var(--title);
+}
+.activity .activity-title-list {
+  color: var(--secondary-text-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+/* team */
+.team {
+  background-color: #f5f4fa;
+}
+.team .team-title {
+  color: var(--title);
+}
+.team .team-surname {
+  color: var(--title);
+}
+.team .social-links {
+  color: var(--primary-text-color);
+}
+.team .social-links:hover,
+.team .social-links:focus {
+  color: var(--accent);
+}
+
+/* customers */
+.customers .customers-title {
+  color: var(--title);
+}
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer .footer-logo {
+  color: var(--secondary-text-color);
+}
+.address {
+  color: var(--secondary-text-color);
+}
+.address .address-link {
+  color: var(--primary-text-color);
+}
+.footer .footer-title {
+  color: var(--secondary-text-color);
+}
+.footer .footer-title-link {
+  color: var(--secondary-text-color);
+}
+.footer .footer-title-link:hover,
+.footer .footer-title-link:focus {
+  color: var(--accent);
+}
+
+/* portfolio */
+
+.portfolio-primary .portfolio-primary-title {
+  color: var(--secondary-text-color);
+}
+.portfolio .portfolio-title {
+  color: var(--title);
+}
+.portfolio .portfolio-text {
+  color: var(--secondary-text-color);
+}
+.portfolio .portfolio-link {
+  color: var(--primary-text-color);
+}
+.button-portfolio.primary {
+  color: var(--title);
+  background-color: #f5f4fa;
+}
+.button-portfolio.primary:hover,
+.button-portfolio.primary:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--accent);
+}
